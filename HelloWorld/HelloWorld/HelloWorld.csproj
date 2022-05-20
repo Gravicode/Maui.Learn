@@ -49,10 +49,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\off.png" />
+	  <None Remove="Resources\Images\on.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Dadu.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Kalkulator.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Senter.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

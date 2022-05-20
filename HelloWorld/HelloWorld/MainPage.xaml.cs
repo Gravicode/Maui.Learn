@@ -27,6 +27,9 @@ public partial class MainPage : ContentPage
 			if(c.Text == "Kalkulator")
             {
 				await Navigation.PushAsync(new Kalkulator());
+            }else if (c.Text == "Senter")
+            {
+                await Navigation.PushAsync(new Senter());
             }
             else
             {

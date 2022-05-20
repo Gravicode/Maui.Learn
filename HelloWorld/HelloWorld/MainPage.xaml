@@ -42,7 +42,8 @@
                 </Button>
                 <Button Margin="5,5,5,5" Text="Dadu" Clicked="Navigasi">
                 </Button>
-
+                <Button Margin="5,5,5,5" Text="Senter" Clicked="Navigasi">
+                </Button>
             </HorizontalStackLayout>
 
         </VerticalStackLayout>
