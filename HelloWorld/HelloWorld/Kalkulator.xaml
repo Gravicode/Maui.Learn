@@ -19,24 +19,24 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Entry Margin="2,2,2,2" FontSize="30" IsReadOnly="True" x:Name="TxtHasil" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3"></Entry>
-        <Button Text="1" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="1" Grid.Column="0"/>
-        <Button Text="2" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="1" Grid.Column="1"/>
-        <Button Text="3" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="1" Grid.Column="2"/>
-        <Button Text="4" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="2" Grid.Column="0"/>
-        <Button Text="5" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="2" Grid.Column="1"/>
-        <Button Text="6" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="2" Grid.Column="2"/>
-        <Button Text="7" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="3" Grid.Column="0"/>
-        <Button Text="8" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="3" Grid.Column="1"/>
-        <Button Text="9" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="3" Grid.Column="2"/>
-        <Button Text="0" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="4" Grid.Column="1"/>
-        <Button Text="+" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="op" Grid.Row="4" Grid.Column="0"/>
-        <Button Text="*" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="op" Grid.Row="4" Grid.Column="2"/>
-        <Button Text="-" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="op" Grid.Row="5" Grid.Column="0"/>
-        <Button Text="/" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="op" Grid.Row="5" Grid.Column="1"/>
-        <Button Text="=" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="op" Grid.Row="5" Grid.Column="2"/>
-        <Button Text="AC" FontSize="20"  Margin="2,2,2,2" Clicked="DoAction" CommandParameter="op" Grid.Row="6" Grid.Column="0"/>
-        <Button Text="(" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="par" Grid.Row="6" Grid.Column="1"/>
-        <Button Text=")" FontSize="20" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="par" Grid.Row="6" Grid.Column="2"/>
+        <Button Text="1" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="1" Grid.Column="0"/>
+        <Button Text="2" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="1" Grid.Column="1"/>
+        <Button Text="3" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="1" Grid.Column="2"/>
+        <Button Text="4" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="2" Grid.Column="0"/>
+        <Button Text="5" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="2" Grid.Column="1"/>
+        <Button Text="6" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="2" Grid.Column="2"/>
+        <Button Text="7" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="3" Grid.Column="0"/>
+        <Button Text="8" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="3" Grid.Column="1"/>
+        <Button Text="9" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="3" Grid.Column="2"/>
+        <Button Text="0" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="number" Grid.Row="4" Grid.Column="1"/>
+        <Button Text="+" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="op" Grid.Row="4" Grid.Column="0"/>
+        <Button Text="*" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="op" Grid.Row="4" Grid.Column="2"/>
+        <Button Text="-" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="op" Grid.Row="5" Grid.Column="0"/>
+        <Button Text="/" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="op" Grid.Row="5" Grid.Column="1"/>
+        <Button Text="=" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="op" Grid.Row="5" Grid.Column="2"/>
+        <Button Text="AC" FontSize="{StaticResource FontKalkulator}"  Margin="2,2,2,2" Clicked="DoAction" CommandParameter="op" Grid.Row="6" Grid.Column="0"/>
+        <Button Text="(" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="par" Grid.Row="6" Grid.Column="1"/>
+        <Button Text=")" FontSize="{StaticResource FontKalkulator}" Margin="2,2,2,2" Clicked="DoAction" CommandParameter="par" Grid.Row="6" Grid.Column="2"/>
 
 
     </Grid>

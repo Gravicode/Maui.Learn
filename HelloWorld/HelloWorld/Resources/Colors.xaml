@@ -3,7 +3,7 @@
 <ResourceDictionary 
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
-
+    <x:Int32 x:Key="FontKalkulator">20</x:Int32>
     <Color x:Key="Primary">#2bd999</Color>
     <Color x:Key="Light">#DFD8F7</Color>
     <Color x:Key="Dark">#2B0B98</Color>

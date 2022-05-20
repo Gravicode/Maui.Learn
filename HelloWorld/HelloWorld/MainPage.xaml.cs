@@ -19,5 +19,21 @@ public partial class MainPage : ContentPage
 
 		SemanticScreenReader.Announce(CounterBtn.Text);
 	}
+
+    private async void Navigasi(object sender, EventArgs e)
+    {
+		if(sender is Button c)
+        {
+			if(c.Text == "Kalkulator")
+            {
+				await Navigation.PushAsync(new Kalkulator());
+            }
+            else
+            {
+                await Navigation.PushAsync(new Dadu());
+
+            }
+        }
+    }
 }
 

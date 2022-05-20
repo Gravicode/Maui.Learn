@@ -17,6 +17,7 @@
                 
             <Label 
                 Text="Hello, World!"
+                FontFamily="Squids"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
@@ -36,6 +37,13 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="TombolDitekan"
                 HorizontalOptions="Center" />
+            <HorizontalStackLayout HorizontalOptions="Center">
+                <Button Margin="5,5,5,5" Text="Kalkulator" Clicked="Navigasi">
+                </Button>
+                <Button Margin="5,5,5,5" Text="Dadu" Clicked="Navigasi">
+                </Button>
+
+            </HorizontalStackLayout>
 
         </VerticalStackLayout>
     </ScrollView>

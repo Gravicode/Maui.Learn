@@ -49,6 +49,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Dadu.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Kalkulator.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
