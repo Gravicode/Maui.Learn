@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BukuTelpon.DetailPage"
+             xmlns:viewmodel="clr-namespace:BukuTelpon.ViewModels"
+             Title="DetailPage">
+    <StackLayout Padding="20" BindingContext="{Binding Kontak}">
+        <Label Text="Nama"
+               FontSize="20"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        <Entry                
+            Text="{Binding Nama}"
+            FontSize="20"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label Text="Telpon"
+               FontSize="20"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        <Entry                
+            Text="{Binding Telpon}"
+            FontSize="20"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Label Text="Keterangan"
+               FontSize="20"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        <Entry                
+            Text="{Binding Keterangan}"
+            FontSize="20"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button Text="Save"
+                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:KontakVM}}, Path=AddCommand}"/>
+
+        <Button Text="Go Back"
+                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:KontakVM}}, Path=GoBackCommand}"/>
+    </StackLayout>
+</ContentPage>

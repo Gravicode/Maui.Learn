@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShalatTime.MainPage"
+           
+            
+                        >
+
+    <ScrollView>
+        <VerticalStackLayout 
+            Spacing="10" 
+            Padding="20,0" 
+            VerticalOptions="FillAndExpand">
+
+            <Label 
+                Text="Pilih Tanggal"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Pilih Tanggal"
+                FontSize="14"
+                HorizontalOptions="Center" />
+
+            <DatePicker MinimumDate="01/01/2020"
+                MaximumDate="12/31/2025" FontSize="14"
+                Date="{Binding CurrentDate}" />
+
+            <Button 
+                x:Name="SholatBtn"
+                Text="Waktu Solat"
+                SemanticProperties.Hint="Get Waktu Solat"
+                Command="{Binding GetWaktuSholat}"
+                HorizontalOptions="Center" />
+
+            <CollectionView Grid.Row="6" Grid.ColumnSpan="2"
+                        ItemsSource="{Binding Shalats}"
+                        SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+
+                            <HorizontalStackLayout Spacing="10" Padding="0,5">
+                                <Label Text="{Binding Nama}"
+                                       FontSize="20"/>
+                                <Label Text="{Binding Jadwal}"
+                                       FontSize="20"/>
+
+                            </HorizontalStackLayout>
+                        </SwipeView>
+                    </DataTemplate>
+
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
